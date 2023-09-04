@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Clang Code Formatter
-      uses: ivanludvig/clang-format-action@v1.4
+      uses: Rekovar-Inc/clang-format-action@v1.5
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
