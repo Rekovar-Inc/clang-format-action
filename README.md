@@ -19,6 +19,8 @@ jobs:
     steps:
     - name: Clang Code Formatter
       uses: Rekovar-Inc/clang-format-action@v1.5
+      with:
+          set-safe-directory: '*'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
